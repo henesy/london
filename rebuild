@@ -1,0 +1,5 @@
+#!/bin/bash
+# Rebuild script for hosting server
+go build && killall london; ./london > /home/seh/london.log 2>&1 &
+
+
