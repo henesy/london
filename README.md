@@ -1,20 +1,12 @@
-# Glenda Bot
-Glenda is the 9fans friendly neighborhood rabbit. 
+# London Bot
+London is a bridge bot with no warranty. 
 
-Glenda was made using the [Dis**go**rd](https://github.com/bwmarrin/disgord) 
-template of the [DiscordGo](https://github.com/bwmarrin/discordgo) 
-library.
-
-### Dependencies
-
-* Go
-* Lookman functionality relies on [plan9port](https://github.com/9fans/plan9port) and a mirror of the 9front manuals/source
+London is derived from [Glenda](https://github.com/henesy/glenda)
 
 ### Installing
 
 ```
-go get github.com/bwmarrin/discordgo
-go get github.com/SlyMarbo/rss
+go install github.com/henesy/london
 ```
 
 ### Usage
@@ -26,6 +18,6 @@ go build
 
 ## Documentation
 
-Glenda Bot invite: https://discordapp.com/oauth2/authorize?client_id=845087454767743036&scope=bot
+Bot invite: https://discordapp.com/oauth2/authorize?client_id=845087454767743036&scope=bot
 
 
