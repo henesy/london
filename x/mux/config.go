@@ -46,7 +46,7 @@ func (c *Configuration) Init(s *discordgo.Session) {
 		"name":		"london.cfg",					// Config file name
 		"dir":			"./cfg",						// Config dir
 		"delay":		"20",							// Minutes
-		
+		"debugChannel":	"##9fans#debug",
 		}
 		
 	// Regularly dump the config

@@ -6,6 +6,13 @@ import (
 	"github.com/go-irc/irc"
 )
 
+// A service node (channel) we bridge to
+type Node interface {
+	Send(name	string, msg	string)	// Send a message from someone
+	To()	[]Node			// Nodes we bridge to
+	Sent(sum	[]byte)	bool	// Did we send a md5{name,msg,timestamp} in the last 5m?
+}
+
 type IrcConn struct {
 	Client	*irc.Client
 	Config	irc.ClientConfig
